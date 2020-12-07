@@ -1,0 +1,65 @@
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	Roland
+Control Surface Model	JunoDS
+Map Version	1.0.0
+
+
+Scope	Propellerheads	Master Keyboard
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Keyboard		Keyboard
+Map	Pitch Bend		Pitch Bend
+Map	Sustain		Damper Pedal
+
+
+
+
+Scope	Propellerheads	Reason Document
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Rewind		Target Previous Track
+Map	Stop		Stop
+Map	Play		Play
+Map	Record		Record
+Map	Pad 1		Target Track Mute
+Map	Pad 2		Target Track Solo
+
+Scope	Propellerheads	Reason Master Section
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Master Level
+Map	Fader 2		Channel 1 Level
+Map	Fader 3		Channel 2 Level
+Map	Fader 4		Channel 3 Level
+
+
+Scope	Propellerheads	THOR Polysonic Synthesizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Filter Env Attack			
+Map	Fader 2		Filter Env Decay			
+Map	Fader 3		Filter Env Sustain			
+Map	Fader 4		Filter Env Release			
+
+
+Scope	Propellerheads	Redrum Drum Computer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Play		Run
+Map	Knob 1		Selected Drum
+Map	Knob 2		Pattern Select in Bank
+Map	Knob 3		Bank Select
+Map	Pad 1		Selected Drum Toggle Step 1
+Map	Pad 2		Selected Drum Toggle Step 2
+Map	Pad 3		Selected Drum Toggle Step 3
+Map	Pad 4		Selected Drum Toggle Step 4
+Map	Pad 5		Selected Drum Toggle Step 5
+Map	Pad 6		Selected Drum Toggle Step 6
+Map	Pad 7		Selected Drum Toggle Step 7
+Map	Pad 8		Selected Drum Toggle Step 8
+Map	Keyboard	C0	Select Drum 1
+Map	Keyboard	C#0	Select Drum 2
+Map	Keyboard	D0	Select Drum 3
+Map	Keyboard	D#0	Select Drum 4
+Map	Keyboard	E0	Select Drum 5
+Map	Keyboard	F0	Select Drum 6
+Map	Keyboard	F#0	Select Drum 7
+Map	Keyboard	G0	Select Drum 8
+Map	Keyboard	G#0	Select Drum 9
+Map	Keyboard	A0	Select Drum 10

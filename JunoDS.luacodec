@@ -1,0 +1,18 @@
+version={1,0,0}
+function remote_supported_control_surfaces()
+    local surfaces =
+    {
+        {
+            manufacturer="Roland",
+            model="JunoDS",
+            source="JunoDS.lua",
+            picture="JunoDS.png",
+            in_ports={ {description="Main"},{description="DAW"} },
+            out_ports={ {description="Output"} },
+            has_keyboard=true,
+            setup_info_text="Set Main to Juno-DS, and DAW to Juno-DS DAW. Output should be Juno-DS DAW.",
+        }
+    }
+    return surfaces
+end
+
